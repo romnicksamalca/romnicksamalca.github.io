@@ -145,6 +145,10 @@ h3.heading	{
 	padding: 2rem;
 }
 
+.aboutblack {
+	background-color: black;
+}
+
 .text-center {
 	/* padding-top: 2rem; */
 	margin-top: 2rem;
