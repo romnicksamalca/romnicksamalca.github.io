@@ -1,0 +1,146 @@
+body, html	{
+	background-color: lightgrey;
+}
+body	{
+	/*height: 100%;*/
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.lamudi.com.ph/journal/wp-content/uploads/2018/04/Fuente-Osme%C3%B1a-Circle-Cebu-Depositphotos.jpg);
+	
+}
+nav	{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	/*background-color: darkgrey;*/
+	/*float: left;*/
+	/*margin: 10px;*/
+	padding-right: 10px;
+	text-align: right;
+}
+header	{
+	margin: 0 auto;
+	padding: 0px;
+}
+header h1	{
+	display: inline-block;
+	/*padding: 12px;*/
+	margin-left: 30px;
+	font-size: 4em;
+}
+nav a	{
+	/*float: left;*/
+	overflow: inherit;
+	display: inline-block;
+	text-shadow: 2px 2px black;
+	color: white;
+	/*background-color: white;*/
+	text-decoration: none;
+	font-size: 1.3em;
+	margin: 0px 0px 0px 15px;
+	padding: 10px;
+	/*text-align: center;*/
+}
+article	h3 {
+	font-size: 2em;
+	margin-left: 20px;
+	margin-bottom: 0px;
+}
+article p {
+	font-size: 1.1em;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+section p {
+	font-size: 1.1em;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+footer	{
+	padding: 0px;
+	margin: 20px 0px 0px 0px;
+	background-color: #292C37;
+	text-align: center;
+	color: white;
+}
+article h2 {
+	text-align: center;
+	color: white;
+}
+/*.imgfloat {
+	float: left;
+	margin-left: 0px;
+	padding: 0px;
+	border: 1px solid white;
+}*/
+
+.imgwrapper{
+	overflow: hidden;
+	}
+.imgtransform {
+	height: 250px;
+	width: 300px;
+	/*display: inline-block;*/
+	margin-left: 7px;
+}
+.imgtransform:hover {
+	animation-name: scale;
+	animation-fill-mode: forwards;
+	animation-duration: 2s;
+	/*animation-delay: 2s;*/
+	animation-timing-function: ease-out;
+}
+@keyframes scale	{
+	0%	{transform: scale(1,1);}
+	/*50%	{transform: scale(1.3,1.3);}*/
+	100%	{transform: scale(1.3,1.3);}
+}
+}
+.advert_1	{
+	margin-bottom: 10px;
+	height: 300px;
+	width: auto;
+}
+.advert_2	{	
+	/*float: right;*/
+	margin-bottom: 20px;
+	height: 300px;
+	width: 300px;
+}
+.advert_3	{
+	/*float: right;*/
+	/*margin-left: 100px;*/
+	margin-bottom: 20px;
+	height: 70px;
+	width: 298px;
+}
+.content_1	{
+	/*float: left;*/
+
+	background-color: white;
+	height: 500px;
+	/*margin-left: 10px;*/
+	margin-top: 50px;
+}
+.content_2	{
+	/*float: left;*/
+	background-color: white;
+	height: 710px;
+	/*margin-left: 10px;*/
+	margin-top: 20px;
+}
+.content_3	{
+	/*float: left;*/
+	/*overflow: hidden;*/
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	/*background-color: white;*/
+	height: 350px;
+	/*margin-left: 10px;*/
+	margin-top: 20px;
+}
+.logo	{
+	height: 70px;
+	width: auto;
+	margin: 20px 0px 20px 10px;
+
+}
+.logoback	{
+	background-size: cover;
+	background-image: url(https://baihotels.com/wp-content/uploads/2017/01/Mactan-Shrine.jpg);
+}

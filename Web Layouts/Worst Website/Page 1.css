@@ -1,0 +1,122 @@
+			body	{
+				background-color: green;
+			}
+
+			ul {
+				list-style-type: none;
+				margin: 0px 150px 100px 150px;
+				padding: 0;
+				width: 1200px;
+				overflow: hidden;
+				background-color: orange;
+
+
+			}
+			li {
+				display: inline-block;
+				font-size: 50px;
+				padding: 10px;
+
+
+			}
+			li a {
+				display: block;
+				text-align: center;
+				padding: 6px;
+				text-decoration: none;
+				color: purple;
+			}
+
+			.background2
+			{
+				background-color: yellow;
+				width: 1400px;
+				/*text-align: center;*/
+				margin: 0px 70px 0px 50px;
+
+			}
+
+			.floatNav {
+				float: right;
+			}
+			.divInline {
+				display: inline;
+			}
+			.h1	{
+				color: yellow;
+				/*padding: 50px;*/
+				margin-top: 30px 0px 40px 0px;
+				font-size: 5em;
+				text-align: center;
+				border: 1px solid orange;
+			}
+			.textalign1	{
+				color: white;
+				font-size: 5em;
+				text-align: center;
+			}
+			.textmargin1 {
+				margin: 50px 0px 150px 0px;
+			}
+			.textalign2	{
+				color: blue;
+				font-size: 5em;
+				text-align: center;
+				padding: 0;
+				margin: 0;
+			}
+			.PorkAdobo {
+				/*border: 2px solid red;*/
+				/*margin-left: 70px;*/
+				/*margin: auto;*/
+				margin-bottom: 90px;
+			}
+			.PAalign {
+				margin-left: 90px;
+			}
+			.PorkLechon {
+				border: 2px solid green;
+				/*margin-left: 70px;*/
+				margin-bottom: 90px;
+			}
+			.PorkBBQ {
+				border: 2px solid blue;
+				margin-left: 95px;
+				/*margin-bottom: 150px;*/
+				/*padding-bottom: 200px;*/
+				/*margin: 0px 100px 0px 0px;*/
+			}
+			h3 {
+				padding-bottom: 40px;
+			}
+
+			.footerbackground {
+				background-color: orange;
+				text-align: center;
+				text-indent: center;
+				height: 50px;
+				width: 1200px;
+				margin: 100px 150px 0px 150px;
+			}
+			footer p {
+
+				padding: 15px;
+				color: white;
+}
+
+			.fontRopa	{
+	font-family: 'Ropa Sans', sans-serif;
+	color: black;
+}
+.fontIceberg {
+	font-family: 'Iceberg', cursive;
+	color: violet;
+}
+.fontCodystar {
+	font-family: 'Codystar', cursive;
+	color: blue;
+}
+.fontCO {
+	font-family: 'Ceviche One', cursive;
+	color: green;
+} 

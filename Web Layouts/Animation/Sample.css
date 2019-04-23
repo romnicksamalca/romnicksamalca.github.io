@@ -1,0 +1,61 @@
+body ,html {
+	background-color: #8CD19D;
+	
+}
+
+button {
+	margin: 20px;
+	border: none;
+	width: 150px;
+	height: 50px;
+	font-size: 1.2em;
+	color: black;
+}
+
+.scale {
+	animation-name: scale;
+	animation-timing-function: both;
+	animation-duration: 2s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+}
+
+.rotate {
+	transform-origin: 10px 10px;
+	animation-name: rotate;
+	animation-timing-function: both;
+	animation-duration: 2s;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+}
+
+.skew {
+	transform-origin: 10px 10px;
+	animation-name: skew;
+	animation-timing-function: both;
+	animation-duration: 2s;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes scale {
+	0% {transform: scale(.2,.2); }
+	50% {transform: skew(20deg);	}
+	100% {transform: scale(1.2,1.2); background-color: orange;	}
+
+}
+
+@keyframes rotate {
+	0% {transform: rotateZ(250deg); }
+	50% {transform: skew(20deg);	}
+	100% {transform: rotate(30deg);; background-color: black; color: white;	}
+
+}
+
+@keyframes skew {
+	/*0% {transform: scale(.2,.2); }*/
+	0% {transform: translate(100px);	}
+	60% {	}
+	100% {transform: translateY(70px); background-color: green; color: black;	}
+
+}

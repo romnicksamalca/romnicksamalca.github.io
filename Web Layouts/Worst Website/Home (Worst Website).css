@@ -1,0 +1,92 @@
+			body	{
+				background-color: pink;
+			}
+
+			ul {
+				list-style-type: none;
+				margin: 0px 0px 100px 0px;
+				padding: 0;
+				width: 100%;
+				overflow: hidden;
+				background-color: red;
+
+
+			}
+			li {
+				display: inline-block;
+				font-size: 50px;
+				padding: 10px;
+
+
+			}
+			li a {
+				display: block;
+				text-align: center;
+				padding: 6px;
+				text-decoration: none;
+				color: purple;
+			}
+
+			.background2
+			{
+				background-color: #e3f2eb;
+				width: 1200px;
+				/*text-align: center;*/
+				margin: 0px 150px 100px 150px;
+
+			}
+			.happynewyear {
+				text-align: center;
+				height: 550px;
+				width: 1150px;
+				padding: 10px;
+				margin-left: 16px;
+
+			}
+			.pigpic {
+				padding: 10px;
+				height: 335px;
+				width: 335px;
+				margin-left: 15px;
+			}
+			.pigdefinition {
+				padding: 10px;
+			}
+			.floatNav {
+				float: right;
+			}
+			.divInline {
+				display: inline;
+			}
+			h1	{
+				color: yellow;
+				/*padding: 50px;*/
+				margin-top: 30px 0px 40px 0px;
+				font-size: 5em;
+				text-align: center;
+				border: 1px solid orange;
+			}
+			.footerbackground {
+				background-color: red;
+				text-align: center;
+				text-indent: center;
+				height: 50px;
+			}
+			footer p {
+				padding: 15px;
+}
+.fontRopa	{
+	font-family: 'Ropa Sans', sans-serif;
+}
+.fontIceberg {
+	font-family: 'Iceberg', cursive;
+	color: violet;
+}
+.fontCodystar {
+	font-family: 'Codystar', cursive;
+	color: blue;
+}
+.fontCO {
+	font-family: 'Ceviche One', cursive;
+	color: green;
+} 

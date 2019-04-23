@@ -41,7 +41,7 @@ body	{
 	background-color: #c04f74ff;
 }
 
-.paraimg1, .paraimg2, .paraimg3 {
+.paraimg1, .paraimg2, .paraimg3, .paraimg4 {
 	position: relative;
 	/* opacity: 0.90; */
 	background-position: center;
@@ -56,13 +56,17 @@ body	{
 	min-height: 100%;
 }
 .paraimg2 {
-	background-image: url('Photos/Maroon Background.png');
-	min-height: 590px;
+	background-image: url('Photos/Maroon Background 2.png');
+	min-height: 750px;
 	/* opacity: 0.50; */
 }
 .paraimg3 {
+	background-image: url('Photos/Black\ Background.png');
+	min-height: 400px;
+}
+.paraimg4 {
 	background-image: url('Photos/Architecture.jpg');
-	min-height: 400px
+	min-height: 750px;
 }
 
 #home {
@@ -115,6 +119,8 @@ body	{
 .aboutimg	{
 	height: 250px;
 	width: auto;
+	padding-top: -30px;
+	margin-top: -30px;
 	padding-bottom: 30px;
 	/* display: inline-block; */
 }
@@ -125,6 +131,26 @@ h3.heading	{
 	text-transform: uppercase;
 	padding-bottom: 1.9rem;
 
+}
+.LargeImage {
+	padding-top: 2rem;
+	margin-top: 3rem;
+	/* margin-left: 20px; */
+	padding-bottom: 2rem;
+	color: red;
+	font-weight: 550;
+	text-align: center;
+}
+.WebImage {
+	padding: 2rem;
+}
+
+.text-center {
+	/* padding-top: 2rem; */
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	/* margin-left: 20px; */
+	/* color: red; */
 }
 
 .heading-underline	{
@@ -146,7 +172,9 @@ h3.heading	{
 	overflow: hidden;
 }
 .projects img	{
-	max-width: 100%;
+	/* max-width: 100%; */
+	width: 330px;
+	height: 250px;
 	transition: transform .5s ease;
 }
 .projects img:hover	{
@@ -174,9 +202,6 @@ footer	{
 	text-align: center;
 	background-image: url("UI/Footer background.png");
 	color: white;
-	/* padding: 2rem 0; */
-	padding-top: 20px;
-	/*margin-top: 1rem;*/
 }
 footer img	{
 	height: 7rem;
@@ -196,10 +221,10 @@ footer svg.svg-inline--fa:hover	{
 }
 
 hr.socket	{
-	/*margin-bottom: 2.5rem;*/
+	/* margin-bottom: 4rem; */
 	border-top: .1rem solid #c04f74ff;
 	width: 100%;
-	/* padding: 1rem auto 2rem; */
+	padding: 1rem auto 2rem;
 }
 
 .ContactInfo img	{

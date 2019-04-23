@@ -1,0 +1,120 @@
+			body	{
+				background-color: red;
+			}
+
+			ul {
+				list-style-type: none;
+				margin: 0px 150px 100px 150px;
+				padding: 0;
+				width: 1200px;
+				overflow: hidden;
+				background-color: pink;
+
+			}
+			li {
+				display: inline-block;
+				font-size: 50px;
+				padding: 10px;
+
+
+			}
+			li a {
+				display: block;
+				text-align: center;
+				padding: 6px;
+				text-decoration: none;
+				color: purple;
+			}
+
+			.background2
+			{
+				background-color: blue;
+				width: 1200px;
+				/*text-align: center;*/
+				margin: 0px 150px;
+
+			}
+			.floatNav {
+				float: right;
+			}
+			.divInline {
+				display: inline;
+			}
+			.h1	{
+				color: yellow;
+				/*padding: 50px;*/
+				margin-top: 30px 0px 40px 0px;
+				font-size: 5em;
+				text-align: center;
+				border: 1px solid orange;
+			}
+			.textalign1	{
+				color: white;
+				font-size: 5em;
+				text-align: center;
+			}
+			.textalign2	{
+				color: blue;
+				font-size: 5em;
+				text-align: center;
+				padding: 0;
+				margin: 0;
+			}
+			.textalign3	{
+				color: white;
+				font-size: 2em;
+				text-align: center;
+			}
+			.pigbanner {
+				text-align: center;
+				height: 550px;
+				width: 1150px;
+				padding: 10px;
+				margin-left: 16px;
+
+			}
+			.pmargin {
+				/*margin: 0px 0px 50px 0px;*/
+				padding: 50px;
+			}
+
+			h3 {
+				padding-bottom: 40px;
+			}
+			.DBfont {
+				color: darkblue;
+			}
+			.Pinkfont {
+				color: pink;
+			}
+
+			.footerbackground {
+				background-color: pink;
+				text-align: center;
+				text-indent: center;
+				height: 50px;
+				width: 1200px;
+				margin: 100px 150px 0px 150px;
+			}
+			footer p {
+
+				padding: 15px;
+				color: white;
+}
+
+			.fontRopa	{
+	font-family: 'Ropa Sans', sans-serif;
+	color: green;
+}
+.fontIceberg {
+	font-family: 'Iceberg', cursive;
+	color: yellow;
+}
+.fontCodystar {
+	font-family: 'Codystar', cursive;
+	color: white;
+}
+.fontCO {
+	font-family: 'Ceviche One', cursive;
+	color: green;
+} 
