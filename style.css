@@ -149,7 +149,7 @@ h3.heading	{
 	margin-top: 3rem;
 	/* margin-left: 20px; */
 	padding-bottom: 2rem;
-	color: red;
+	color: #c04f74ff;
 	font-weight: 550;
 	text-align: center;
 }
@@ -275,7 +275,7 @@ hr.socket	{
 	}
 
 }
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
 	.landing-text	{
 	padding-left: 4rem;
 }
