@@ -5,6 +5,7 @@ $(document).ready(function (){
         event.preventDefault()
         console.log('Button clicked')
 
+        var Name = $('.Name').val()
         var email = $('.email').val()
         var phone = $('.phone').val()
         var message = $('.message').val()
