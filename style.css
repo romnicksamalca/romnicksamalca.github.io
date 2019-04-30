@@ -275,15 +275,15 @@ hr.socket	{
 	}
 
 }
-@media screen and (min-width: 576px) {
+@media screen (min-width: 376px) and (max-width: 576px) {
 	.landing-text	{
-	padding-left: 4rem;
+	padding-left: 3.5rem;
 }
 	.landing-text h1	{
 	font-size: 320%;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: .5rem;
+	letter-spacing: .4rem;
 	text-shadow: .1rem .1rem .8rem black;
 	/*padding-bottom: 1rem;*/
 	}
@@ -301,6 +301,7 @@ hr.socket	{
 	margin: 3rem;
 	margin-top: -1.5rem;
 }
+	
 
 
 
