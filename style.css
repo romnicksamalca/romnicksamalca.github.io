@@ -39,6 +39,7 @@ body	{
 .navtextblack li a	{
 	color: white;
 	background-color: #c04f74ff;
+	margin-top: 3rem;
 }
 
 .paraimg1, .paraimg2, .paraimg3, .paraimg4 {
@@ -67,6 +68,17 @@ body	{
 .paraimg4 {
 	background-image: url('Photos/Architecture.jpg');
 	min-height: 750px;
+}
+
+.aboutblack {
+	background-color: black;
+	color: white;
+	padding-top: -60px;
+	margin-top: -20px;
+}
+
+.projsize {
+
 }
 
 #home {
@@ -102,9 +114,9 @@ body	{
 }
 
 .offset:before	{
-	height: 5rem;
-	margin-top: -5rem;
-	padding-top: 7rem;
+	height: 3rem;
+	margin-top: -3rem;
+	padding-top: 4rem;
 	padding-bottom: -3rem;
 	content: "";
 	display: block;
@@ -129,7 +141,7 @@ h3.heading	{
 	font-size: 1.9rem;
 	font-weight: 700;
 	text-transform: uppercase;
-	padding-bottom: 1.9rem;
+	padding-bottom: 1.1rem;
 
 }
 .LargeImage {
@@ -142,11 +154,7 @@ h3.heading	{
 	text-align: center;
 }
 .WebImage {
-	padding: 2rem;
-}
-
-.aboutblack {
-	background-color: black;
+	padding: 2.2rem;
 }
 
 .text-center {
@@ -244,6 +252,10 @@ hr.socket	{
 	color: #c04f74ff;
 }
 
+.aboutmargin {
+	font-size: 1rem;
+	
+}
 
 /*Media Queries*/
 
@@ -265,7 +277,7 @@ hr.socket	{
 }
 @media screen and (max-width: 576px) {
 	.landing-text	{
-	padding-left: 5.5rem;
+	padding-left: 4rem;
 }
 	.landing-text h1	{
 	font-size: 320%;
@@ -281,6 +293,13 @@ hr.socket	{
 	text-shadow: .1rem .1rem .5rem black;
 	padding-bottom: 2rem;
 }
+.projects {
+	margin-left: 2.4rem;
+}
+.aboutmargin {
+	font-size: .9rem;
+	margin: 3rem;
+	margin-top: -1.5rem;
 }
 
 
