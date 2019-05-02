@@ -260,6 +260,12 @@ hr.socket	{
 /*Media Queries*/
 
 @media screen and (max-width: 1200px) {
+	.WebImage img {
+		padding: -4rem;
+		height: 200px;
+		width: 230px;
+		margin-left: -2rem;
+	}
 
 }
 @media screen and (max-width: 768px) {
@@ -273,28 +279,49 @@ hr.socket	{
 	.landing-text h3	{
 		font-size: 110%;
 	}
+	.WebImage img {
+		padding: -4rem;
+		height: 150px;
+		width: 180px;
+		margin-left: -2rem;
+	}
+	.aboutmargin {
+		font-size: 18px;
+		margin: 4rem;
+		margin-top: -1.5rem;
+	}
 
 }
 @media screen and (max-width: 576px) {
 	.landing-text	{
-	padding-left: 4rem;
+	padding-left: 3rem;
 	}
 	.landing-text h1	{
-	font-size: 350%;
+	font-size: 300%;
 	letter-spacing: .5rem;
 	}
 	.landing-text h3	{
-		font-size: 110%;
+		font-size: 100%;
+	}
+	.aboutmargin {
+		font-size: 14px;
+		margin: 3rem;
+		margin-top: -1.5rem;
+	}
+	.projects {
+		margin-left: 2.4rem;
 	}
 
+
 }
 
-@media screen (max-width: 376px) {
+@media screen and (max-width: 376px) {
 	.landing-text	{
-	padding-left: 2.5rem;
+	padding-left: -50px;
+	margin-left: 3rem;
 }
 	.landing-text h1	{
-	font-size: 320%;
+	font-size: 290%;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 2.5rem;
@@ -311,9 +338,10 @@ hr.socket	{
 	margin-left: 2.4rem;
 }
 .aboutmargin {
-	font-size: .9rem;
+	font-size: .8rem;
 	margin: 3rem;
 	margin-top: -1.5rem;
+}
 }
 	
 
