@@ -13,7 +13,9 @@ body	{
 	font-size: .9rem;
 	letter-spacing: 0rem;
 	padding-right: 3rem;
+	text-align: center;
 	background: rgb(0,0,0,1) !important;
+	/* background: #c04f74ff !important; */
 }
 .navbar-brand img {
 	height: 3.5rem;
@@ -62,7 +64,7 @@ body	{
 	/* opacity: 0.50; */
 }
 .paraimg3 {
-	background-image: url('Photos/Black\ Background.png');
+	background-image: url('Photos/Black Background.png');
 	min-height: 400px;
 }
 .paraimg4 {
@@ -77,9 +79,6 @@ body	{
 	margin-top: -20px;
 }
 
-.projsize {
-
-}
 
 #home {
 	/*background-image: url('Photos/Romnick Samalca - Background.png');*/
@@ -141,7 +140,7 @@ h3.heading	{
 	font-size: 1.9rem;
 	font-weight: 700;
 	text-transform: uppercase;
-	padding-bottom: 1.1rem;
+	/* padding-bottom: 1.1rem; */
 
 }
 .LargeImage {
@@ -157,6 +156,13 @@ h3.heading	{
 	padding: 2.2rem;
 }
 
+.text-centerH {
+	/* padding-top: 2rem; */
+	/* margin-top: 2rem; */
+	margin-bottom: -2rem;
+	/* margin-left: 20px; */
+	/* color: red; */
+}
 .text-center {
 	/* padding-top: 2rem; */
 	margin-top: 2rem;
@@ -169,7 +175,7 @@ h3.heading	{
 	width: 10rem;
 	height: .2rem;
 	background-color: #c04f74ff;
-	margin: -1.5rem auto 2rem;
+	margin: -1.5rem auto 1.5rem;
 }
 
 .workbg {
@@ -195,17 +201,6 @@ h3.heading	{
 	cursor: zoom-in;
 }
 
-.card-img-top	{
-	display: table;
-	text-align:	center;
-	margin-left: 37.4%;
-	height: 13rem;
-	width: 13rem;
-}
-.card	{
-	margin-top: 0rem;
-	margin-bottom: 2rem;
-}
 .row.no-padding [class*=col-]	{
 	padding: 0;
 }
@@ -214,10 +209,6 @@ footer	{
 	text-align: center;
 	background-image: url("UI/Footer background.png");
 	color: white;
-}
-footer img	{
-	height: 7rem;
-	margin: 1.5rem 0;
 }
 
 footer a {
@@ -255,6 +246,13 @@ hr.socket	{
 .aboutmargin {
 	font-size: 1rem;
 	
+}
+
+.tabpanel {
+	font-size: 1rem;
+}
+.contacth2 {
+	font-size: 1rem;
 }
 
 /*Media Queries*/
@@ -305,11 +303,11 @@ hr.socket	{
 	}
 	.aboutmargin {
 		font-size: 14px;
-		margin: 3rem;
+		margin: 2.8rem;
 		margin-top: -1.5rem;
 	}
 	.projects {
-		margin-left: 2.4rem;
+		margin-left: 2.1rem;
 	}
 	.WebImage img {
 		padding: -4rem;
@@ -328,31 +326,102 @@ hr.socket	{
 
 @media screen and (max-width: 376px) {
 	.landing-text	{
-	padding-left: -50px;
-	margin-left: 3rem;
-}
+	text-align: center;
+	padding-left: 10px;
+	margin-left: 1rem;
+	}
 	.landing-text h1	{
-	font-size: 290%;
-	font-weight: 700;
+	font-size: 340%;
+	font-weight: 400;
 	text-transform: uppercase;
-	letter-spacing: 2.5rem;
+	letter-spacing: 1px;
 	text-shadow: .1rem .1rem .8rem black;
 	/*padding-bottom: 1rem;*/
 	}
 
-.landing-text h3	{
-	font-size: 100%;
+	.landing-text h3	{
+	font-size: 82%;
 	text-shadow: .1rem .1rem .5rem black;
 	padding-bottom: 2rem;
-}
-.projects {
-	margin-left: 2.4rem;
-}
-.aboutmargin {
-	font-size: .8rem;
-	margin: 3rem;
+	}
+
+	h3.heading	{
+		font-size: 1.3rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-top: -.5rem;
+		/* padding-bottom: 1.1rem; */
+	
+	}
+	.heading-underline	{
+		width: 7rem;
+		height: .2rem;
+		background-color: #c04f74ff;
+		/* margin: -1.5rem auto 1.5rem; */
+	}
+	.projects {
+	margin-left: 0px;
+	}
+
+	.aboutmargin {
+	font-size: 14px;
+	margin: 2.5rem;
 	margin-top: -1.5rem;
-}
+	}
+
+	.WebImage img {
+	padding: -2rem;
+	height: 200px;
+	width: 250px;
+	margin-left: 0rem;
+	}
+
+	.text-center {
+	font-size: 12px;
+	margin-top: 1px 0px;
+	}
+
+	.LargeImage {
+	padding-top: 0rem;
+	margin-top: 1rem;
+	/* margin-left: 20px; */
+	padding-bottom: 1rem;
+	color: #c04f74ff;
+	font-weight: 550;
+	text-align: center;
+	font-size: 12px;
+	}
+	.tabpanel {
+	font-size: 12px;
+	}
+	footer img	{
+		height: 1rem;
+		margin: 1.5rem 0;
+	}
+	.offset:before	{
+		height: 1rem;
+		margin-top: -1rem;
+		padding-top: 2rem;
+		padding-bottom: -1rem;
+		content: "";
+		display: block;
+	}
+	.contacth2{
+		font-size: 12px;
+	}
+	.contacth2 h2 {
+		font-size: 20px;
+	}
+	.paraimg2, .paraimg3, .paraimg4 {
+		min-height: 400px;
+	}
+	footer svg.svg-inline--fa	{
+		font-size: 2rem;
+		/* margin: 1.5rem .5rem 0 0; */
+	}
+	footer {
+		font-size: 12px;
+	}
 }
 	
 
