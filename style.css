@@ -264,7 +264,7 @@ hr.socket	{
 }
 @media screen and (max-width: 768px) {
 	.landing-text	{
-	padding-left: 6.5 rem;
+	padding-left: 6.5rem;
 	}
 	.landing-text h1	{
 	font-size: 350%;
@@ -277,7 +277,7 @@ hr.socket	{
 }
 @media screen and (max-width: 576px) {
 	.landing-text	{
-	padding-left: 4 rem;
+	padding-left: 4rem;
 	}
 	.landing-text h1	{
 	font-size: 350%;
@@ -289,15 +289,15 @@ hr.socket	{
 
 }
 
-@media screen (min-width: 376px) and (max-width: 576px) {
+@media screen (max-width: 376px) {
 	.landing-text	{
-	padding-left: 2.5 rem;
+	padding-left: 2.5rem;
 }
 	.landing-text h1	{
 	font-size: 320%;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 2.5 rem;
+	letter-spacing: 2.5rem;
 	text-shadow: .1rem .1rem .8rem black;
 	/*padding-bottom: 1rem;*/
 	}
@@ -305,13 +305,13 @@ hr.socket	{
 .landing-text h3	{
 	font-size: 100%;
 	text-shadow: .1rem .1rem .5rem black;
-	padding-bottom: 2 rem;
+	padding-bottom: 2rem;
 }
 .projects {
-	margin-left: 2.4 rem;
+	margin-left: 2.4rem;
 }
 .aboutmargin {
-	font-size: .9 rem;
+	font-size: .9rem;
 	margin: 3rem;
 	margin-top: -1.5rem;
 }
