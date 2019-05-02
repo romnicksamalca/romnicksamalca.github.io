@@ -311,6 +311,17 @@ hr.socket	{
 	.projects {
 		margin-left: 2.4rem;
 	}
+	.WebImage img {
+		padding: -4rem;
+		height: 200px;
+		width: 230px;
+		margin-left: 1rem;
+	}
+	.ContactInfo img	{
+		height: 200px;
+		width: auto;
+		padding: 5px;
+	}
 
 
 }
