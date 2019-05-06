@@ -324,7 +324,7 @@ hr.socket	{
 
 }
 
-@media screen and (max-width: 376px) {
+@media screen (min-width: 375px) and (max-width: 430px) {
 	.landing-text	{
 	text-align: center;
 	padding-left: 10px;
